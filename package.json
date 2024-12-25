@@ -6,10 +6,8 @@
   "scripts": {
     "start": "package-scripts",
     "test": "package-scripts test",
-    "build": "babel src -d dist",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "opt --in pre-commit --exec \"npm start validate\"",
-    "postinstall": "npm run build"
+    "precommit": "opt --in pre-commit --exec \"npm start validate\""
   },
   "files": [
     "dist"
@@ -18,7 +16,7 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "cross-spawn": "^7.0.6",
+    "cross-spawn": "6.0.6 || ^7.0.6",
     "ps-tree": "^1.1.0"
   },
   "devDependencies": {
