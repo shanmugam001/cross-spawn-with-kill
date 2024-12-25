@@ -16,7 +16,7 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "cross-spawn": "^4.0.0",
+    "cross-spawn": "6.0.6",
     "ps-tree": "^1.1.0"
   },
   "devDependencies": {
